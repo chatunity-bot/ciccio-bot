@@ -8,8 +8,6 @@
 <img src="https://i.ibb.co/HpkzmrMZ/chatunity-jpg.jpg" alt="ChatUNity-bot" style="width: 100%; height: auto; max- width: 400px;">
 “© ChatUNity-bot. Tutti i diritti riservati. Consulta la licenza per i dettagli.”
  <p align="center"> 
- <a href="https://whatsapp.com/channel/0029VaZVlJZHwXb8naJBQN0J"><img 
- src="http://readme-typing-svg.herokuapp.com?font=mono&size=30&duration=4000&color=9bd762&center=falso&vCenter=falso&lines=ChatUnity-bot;Entra+nel+nostro+canale+cliccando+qui"></a>
 
 ###
 ></a>

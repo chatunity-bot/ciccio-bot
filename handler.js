@@ -509,7 +509,7 @@ export async function participantsUpdate({ id, participants, action }) {
                     } catch (e) {
                     } finally {
                         let apii = await this.getFile(pp)
-                        let nomeDelBot = global.db.data.nomedelbot || `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭`
+                        let nomeDelBot = global.db.data.nomedelbot || `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲`
                         text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Benvenuto, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || 'bot') :
                             (chat.sBye || this.bye || conn.bye || 'Addio, @user!')).replace('@user', '@' + user.split('@')[0])
                         this.sendMessage(id, { 
@@ -519,7 +519,7 @@ export async function participantsUpdate({ id, participants, action }) {
                                 forwardingScore: 99,
                                 isForwarded: true, 
                                forwardedNewsletterMessageInfo: {
-                               newsletterJid: '120363175463922716@newsletter',
+                               newsletterJid: '120363259442839354@newsletter',
                                serverMessageId: '', newsletterName: `${nomeDelBot}` },
                                externalAdReply: {
                                     "title": `${action === 'add' ? '𝐌𝐞𝐬𝐬𝐚𝐠𝐠𝐢𝐨 𝐝𝐢 𝐛𝐞𝐧𝐯𝐞𝐧𝐮𝐭𝐨' : '𝐌𝐞𝐬𝐬𝐚𝐠𝐠𝐢𝐨 𝐝𝐢 𝐚𝐝𝐝𝐢𝐨'}`,
@@ -548,7 +548,7 @@ export async function participantsUpdate({ id, participants, action }) {
                         pp = await this.profilePictureUrl(user, 'image')
                     } catch (e) {
                     } finally {
-                        let nomeDelBot = global.db.data.nomedelbot || `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭`
+                        let nomeDelBot = global.db.data.nomedelbot || `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲`
                         let apii = await this.getFile(pp)
                         text = (action === 'promote' ? (chat.sPromote || this.spromote || conn.spromote || '@user ```è ora admin```') :
                             (chat.sDemote || this.sdemote || conn.sdemote || '@user ```non è più admin```')).replace('@user', '@' + user.split('@')[0])
@@ -559,7 +559,7 @@ export async function participantsUpdate({ id, participants, action }) {
                                 forwardingScore: 99,
                                 isForwarded: true, 
                                forwardedNewsletterMessageInfo: {
-                               newsletterJid: '120363175463922716@newsletter',
+                               newsletterJid: '120363259442839354@newsletter',
                                serverMessageId: '', newsletterName: `${nomeDelBot}` },
                                externalAdReply: {
                                     "title": `${action === 'promote' ? '𝐌𝐞𝐬𝐬𝐚𝐠𝐠𝐢𝐨 𝐝𝐢 𝐩𝐫𝐨𝐦𝐨𝐳𝐢𝐨𝐧𝐞 👑' : '𝐌𝐞𝐬𝐬𝐚𝐠𝐠𝐢𝐨 𝐝𝐢 𝐫𝐞𝐭𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐨𝐧𝐞 🙇🏻‍♂️'}`,
@@ -603,7 +603,7 @@ export async function callUpdate(callUpdate) {
     if (nk.status == "offer") {
     let callmsg = await this.reply(nk.from, `ciao @${nk.from.split('@')[0]}, c'è anticall.`, false, { mentions: [nk.from] })
     //let data = global.owner.filter(([id, isCreator]) => id && isCreator)
-    let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲;;;\nFN:𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲\nORG:𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲\nTITLE:\nitem1.TEL;waid=8619858371809:+86 19858371809\nitem1.X-ABLabel:𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲\nX-WA-BIZ-DEION:ofc\nX-WA-BIZ-NAME:𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲\nEND:VCARD`
+    let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝐃𝚲𝐍𝕀𝚵𝐋͎💋;;;\nFN:𝐃𝚲𝐍𝕀𝚵𝐋͎💋\nORG:𝐃𝚲𝐍𝕀𝚵𝐋͎💋\nTITLE:\nitem1.TEL;waid=33760536110:+33 7 60 53 61 10\nitem1.X-ABLabel:𝐃𝚲𝐍𝕀𝚵𝐋͎💋\nX-WA-BIZ-DESCRIPTION:ofc\nX-WA-BIZ-NAME:𝐃𝚲𝐍𝕀𝚵𝐋͎💋\nEND:VCARD`
     await this.sendMessage(nk.from, { contacts: { displayName: 'Unlimited', contacts: [{ vcard }] }}, {quoted: callmsg})
     await this.updateBlockStatus(nk.from, 'block')
     }

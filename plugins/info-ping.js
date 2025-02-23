@@ -44,7 +44,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     }
   })
 
-  let cpuModel = cpus[0].model
+  let cpuModel = cpus[0]?.model || 'Unknown Model'
   let cpuSpeed = cpu.speed.toFixed(2)
 
   let caption = `『💬』 ══ •⊰✰⊱• ══ 『💬』

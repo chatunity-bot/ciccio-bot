@@ -2,9 +2,9 @@
 <a href="https://whatsapp.com/channel/0029VaZVlJZHwXb8naJBQN0J"><img title="Author" src="https://img.shields.io/badge/Canale Ufficiale-black?style=for-the-badge&logo=whatsApp"></a>
 
    <p align="center"> 
- <a href="https://github.com/chatunityy/followers"><img title="𝐅𝐨𝐥𝐥𝐨𝐰𝐞𝐫𝐬" src="https://img.shields.io/github/followers/chatunityy?color=red&style=flat-square"></a> 
- <a href="https://github.com/chatunityy/chatunityy/stargazers/"><img ><img src="https://komarev.com/ghpvc/?username=chatunityy&color=blue&style=flat-square&label=Profile+Visual" /> 
- <a href="https://github.com/chatunityy/chatunityy/watchers"><img ></a>
+ <a href="https://github.com/chatunity-bot/followers"><img title="𝐅𝐨𝐥𝐥𝐨𝐰𝐞𝐫𝐬" src="https://img.shields.io/github/followers/chatunity-bot?color=red&style=flat-square"></a> 
+ <a href="https://github.com/chatunity-bot/chatunity-bot/stargazers/"><img ><img src="https://komarev.com/ghpvc/?username=chatunity-bot&color=blue&style=flat-square&label=Profile+Visual" /> 
+ <a href="https://github.com/chatunity-bot/chatunity-bot/watchers"><img ></a>
 
 
  <p align="center"> 
@@ -12,7 +12,7 @@
  src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=9bd762&center=falso&vCenter=falso&lines=ChatUnity-bot;Entra+nel+nostro+canale+cliccando+qui"></a>
 
  <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=chatunityy&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  /></a>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=chatunity-bot&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  /></a>
 
 ###
 ></a>
@@ -41,11 +41,11 @@ https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(a
  ```
 
  ```bash 
- git clone https://github.com/coinvale/chatunity-bott.git
+ git clone https://github.com/chatunity-bot/chatunity-bot.git
  ```
   
  ```bash 
- cd chatunity-bott
+ cd chatunity-bot
  ```
 
  ```bash 
@@ -55,10 +55,6 @@ https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(a
  ```bash 
  npm install
  ```
-
- ```bash 
- npm update
- ``` 
 
  ```bash 
  npm start
@@ -85,7 +81,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
  * Scarica e installa ImageMagick [`Clicca qui`](https://imagemagick.org/script/download.php) 
 
  ```bash 
- git clone https://github.com/coinvale/chatunity-bott
+ git clone https://github.com/chatunity-bot/chatunity-bot
  ``` 
  ```bash 
  cd chatunity-bot 
@@ -103,7 +99,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
  # 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲
 <a href="https://whatsapp.com/channel/0029VaZVlJZHwXb8naJBQN0J"><img src="https://i.ibb.co/HpkzmrMZ/chatunity-jpg.jpg" height="200px"></a>
 
-- **Dashboard:** [`clicca  qui`](https://github.com/chatunityy)
+- **Dashboard:** [`clicca  qui`](https://github.com/chatunity-bot)
 - **Canale WhatsApp:** [`clicca  qui`](https://whatsapp.com/channel/0029VaZVlJZHwXb8naJBQN0J)
 - **Contatto:** [`clicca  qui`](https://wa.me/8619858371809)
 - **Collab:** [`clicca  qui`](https://whatsapp.com/channel/0029Vb1C4od5vKA35u1Mqc06)

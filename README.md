@@ -5,14 +5,11 @@
  <a href="https://github.com/chatunity-bot/followers"><img title="𝐅𝐨𝐥𝐥𝐨𝐰𝐞𝐫𝐬" src="https://img.shields.io/github/followers/chatunity-bot?color=red&style=flat-square"></a> 
  <a href="https://github.com/chatunity-bot/chatunity-bot/stargazers/"><img ><img src="https://komarev.com/ghpvc/?username=chatunity-bot&color=blue&style=flat-square&label=Profile+Visual" /> 
  <a href="https://github.com/chatunity-bot/chatunity-bot/watchers"><img ></a>
-
-
+<img src="https://i.ibb.co/HpkzmrMZ/chatunity-jpg.jpg" alt="ChatUNity-bot" style="width: 100%; height: auto; max- width: 400px;">
+“© ChatUNity-bot. Tutti i diritti riservati. Consulta la licenza per i dettagli.”
  <p align="center"> 
  <a href="https://whatsapp.com/channel/0029VaZVlJZHwXb8naJBQN0J"><img 
- src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=9bd762&center=falso&vCenter=falso&lines=ChatUnity-bot;Entra+nel+nostro+canale+cliccando+qui"></a>
-
- <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=chatunity-bot&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  /></a>
+ src="http://readme-typing-svg.herokuapp.com?font=mono&size=30&duration=4000&color=9bd762&center=falso&vCenter=falso&lines=ChatUnity-bot;Entra+nel+nostro+canale+cliccando+qui"></a>
 
 ###
 ></a>

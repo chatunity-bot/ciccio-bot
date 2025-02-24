@@ -62,7 +62,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
   const profilePictureUrl = await fetchProfilePictureUrl(conn, m.sender)
 
-  const messageOptions = {
+  let messageOptions = {
     contextInfo: {
       forwardingScore: 999,
       isForwarded: true,
@@ -70,15 +70,18 @@ let handler = async (m, { conn, usedPrefix, command }) => {
         newsletterJid: '120363259442839354@newsletter',
         serverMessageId: '',
         newsletterName: `${nomeDelBot}`
-      },
-      externalAdReply: {
-        title: nomeDelBot,
-        body: `Versione: ${versioneBot}`,
-        mediaType: 1,
-        renderLargerThumbnail: false,
-        previewType: 'thumbnail',
-        thumbnail: await fetchThumbnail(profilePictureUrl),
       }
+    }
+  }
+
+  if (profilePictureUrl !== 'default-profile-picture-url') {
+    messageOptions.contextInfo.externalAdReply = {
+      title: nomeDelBot,
+      body: `Versione: ${versioneBot}`,
+      mediaType: 1,
+      renderLargerThumbnail: false,
+      previewType: 'thumbnail',
+      thumbnail: await fetchThumbnail(profilePictureUrl),
     }
   }
 

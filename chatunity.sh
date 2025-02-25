@@ -9,16 +9,7 @@ echo -e "\e[35m
 COMMENT
 
 echo -e "\033[01;93mPreparando installazione...\nPreparing installation...\n\033[0m"
-mp3_array=("https://qu.ax/PreU.mp3" "https://qu.ax/kKXA.mp3" "https://qu.ax/cFSp.mp3" "https://qu.ax/CQRm.mp3" "https://qu.ax/kDSY.mp3" "https://qu.ax/AQLB.mp3" "https://qu.ax/EspE.mp3" "https://qu.ax/ifKO.mp3" "https://qu.ax/EUDu.mp3" "https://qu.ax/SRNs.mp3" "https://qu.ax/WvfK.mp3" "https://qu.ax/lbff.mp3")
-random_mp3=${mp3_array[$RANDOM % ${#mp3_array[@]}]}
-echo -e "\033[01;32mDownload riuscito. Riproduzione del suono di intro...\nDownload successful. Playing intro sound...\n\033[0m"
-while true; do
-mpv --no-terminal "$random_mp3" &
-sleep 2
-wait
-done &
-echo -e "\033[01;91mSuono di intro non disponibile.\nIntro sound not available.\n\033[0m"
- 
+
 echo -e "\033[01;32m\033[01mInstalando dependencias!!\nInstalling dependencies!!\n\033[0m" 
 echo -e "\e[36m
 ██╗███╗░░██╗░██████╗████████╗░█████╗░██╗░░░░░██╗░░░░░

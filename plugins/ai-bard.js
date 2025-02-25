@@ -11,7 +11,7 @@ await conn.reply(m.chat, `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['s
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)
 }}
-handler.command = ['bard', 'gemini', 'chatgbt', "ai","ia"]
+handler.command = ['bard', 'gemini']
 handler.help = ['bard', 'gemini']
 handler.tags = ['herramientas']
 

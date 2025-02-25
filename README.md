@@ -19,7 +19,7 @@ https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(a
 
 </details> 
 
- #### `✦ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬`
+ #### `✦ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 𝐀𝐔𝐓𝐎𝐌𝐀𝐓𝐈𝐂𝐎 (𝐓𝐄𝐑𝐌𝐔𝐗)`
     
   ```bash 
 termux-setup-storage 

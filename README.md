@@ -19,8 +19,23 @@ https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(a
 
 </details> 
 
- #### `✦ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 𝐈𝐍 𝐓𝐄𝐑𝐌𝐔𝐗`  
+ #### `✦ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 𝐀𝐔𝐓𝐎𝐌𝐀𝐓𝐈𝐂𝐎 (𝐓𝐄𝐑𝐌𝐔𝐗)`
     
+  ```bash 
+termux-setup-storage 
+   ```
+
+  ```bash 
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/chatunity-bot/chatunity-bot/master/chatunity.sh | bash
+   ```
+
+> *Se appare **(Y/I/N/O/D/Z) [default=N] ?** usa la lettera **"y" + "ENTER"** per continuare l'installazione*
+
+
+ #### `✦ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 𝐈𝐍 𝐓𝐄𝐑𝐌𝐔𝐗 (𝐌𝐀𝐍𝐔𝐀𝐋𝐄)`  
+  <details>
+  <summary><b>Tocca qui per vedere </b></summary>
+     
  - 𝐃𝐈𝐆𝐈𝐓𝐀 𝐐𝐔𝐄𝐒𝐓𝐈 𝐂𝐎𝐌𝐀𝐍𝐃𝐈:
 
  ```bash 
@@ -56,6 +71,8 @@ https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(a
  ```
 > *Se appare **(Y/I/N/O/D/Z) [default=N] ?** usa la lettera **"y" + "ENTER"** per continuare l'installazione*
 
+ </details>
+ 
  #### `✦ 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 𝟐𝟒/𝟕 𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐢𝐨𝐧 𝐓𝐄𝐑𝐌𝐔𝐗`
  <details>
   <summary><b>Tocca qui per vedere </b></summary>

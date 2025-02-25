@@ -68,7 +68,11 @@ function generateMenuText(prefix, botName, userCount) {
 👥  ${prefix}𝐆𝐫𝐮𝐩𝐩𝐨
 📜  ${prefix}𝐒𝐜𝐫𝐢𝐩𝐭
 🔈  ${prefix}𝐀𝐮𝐝𝐢𝐨
+<<<<<<< HEAD
 🤖  ${prefix}𝐢𝐚
+=======
+🤖  ${prefix}𝐆𝐞𝐦𝐢𝐧𝐢
+>>>>>>> 463aca0c47de3b693fff4c3d094ff6eb2b837b75
 
     『💬』 ══ •⊰✰⊱• ══ 『💬』
 

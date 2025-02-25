@@ -32,7 +32,7 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 > *Se appare **(Y/I/N/O/D/Z) [default=N] ?** usa la lettera **"y" + "ENTER"** per continuare l'installazione*
 
 
- #### `✦ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 𝐈𝐍 𝐓𝐄𝐑𝐌𝐔𝐗`  
+ #### `✦ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 𝐈𝐍 𝐓𝐄𝐑𝐌𝐔𝐗 (𝐌𝐀𝐍𝐔𝐀𝐋𝐄)`  
   <details>
   <summary><b>Tocca qui per vedere </b></summary>
      

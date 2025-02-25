@@ -61,17 +61,17 @@ function generateMenuText(prefix, botName, userCount) {
     『💬』 ══ •⊰✰⊱• ══ 『💬』
           𝐔𝐬𝐚 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭
         
-⚙ ${prefix}𝐅𝐮𝐧𝐳𝐢𝐨𝐧𝐢
-📥 ${prefix}𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐚
-👑 ${prefix}𝐩𝐫𝐨𝐩𝐫𝐢𝐞𝐭𝐚𝐫𝐢𝐨
-🛡 ${prefix}𝐀𝐝𝐦𝐢𝐧
-👥 ${prefix}𝐆𝐫𝐮𝐩𝐩𝐨
-📜 ${prefix}𝐒𝐜𝐫𝐢𝐩𝐭
-🔈 ${prefix}𝐀𝐮𝐝𝐢𝐨
-🖼 ${prefix}𝐋𝐨𝐠𝐨
+⚙  ${prefix}𝐅𝐮𝐧𝐳𝐢𝐨𝐧𝐢
+📥  ${prefix}𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐚
+👑  ${prefix}𝐩𝐫𝐨𝐩𝐫𝐢𝐞𝐭𝐚𝐫𝐢𝐨
+🛡  ${prefix}𝐀𝐝𝐦𝐢𝐧
+👥  ${prefix}𝐆𝐫𝐮𝐩𝐩𝐨
+📜  ${prefix}𝐒𝐜𝐫𝐢𝐩𝐭
+🔈  ${prefix}𝐀𝐮𝐝𝐢𝐨
+🤖  ${prefix}𝐆𝐞𝐦𝐢𝐧𝐢
 
     『💬』 ══ •⊰✰⊱• ══ 『💬』
-    
+
 𝐔𝐭𝐞𝐧𝐭𝐢: ${userCount}
 𝐀𝐮𝐭𝐨𝐫𝐞: 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲
 𝐕𝐞𝐫𝐬𝐢𝐨𝐧𝐞: 1.0

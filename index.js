@@ -1,8 +1,4 @@
-import os from 'os';
-import chalk from 'chalk';
-import { readFileSync } from 'fs';
-
-console.log('Preparo chatunity-bot...')
+console.log('Preparo bixby...')
 import { join, dirname } from 'path'
 import { createRequire } from "module";
 import { fileURLToPath } from 'url'
@@ -17,14 +13,10 @@ const { name, author } = require(join(__dirname, './package.json'))
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('ChatUnity\nBot', {
-    font: 'chrome',
-    align: 'center',
-    gradient: ['red', 'magenta']})
-    say(`da chatunity`, {
-    font: 'console',
-    align: 'center',
-    gradient: ['red', 'magenta']})
+say('\nchatunity\nbot', {
+font: 'block',
+align: 'center',
+color: ['cyan', 'green']})
 
 var isRunning = false
 /**
@@ -36,12 +28,17 @@ if (isRunning) return
 isRunning = true
 let args = [join(__dirname, file), ...process.argv.slice(2)]
 
+say('developed by chatunity', {
+font: 'console',
+align: 'center',
+color: ['cyan', 'blue']})
+  
 setupMaster({
 exec: args[0],
 args: args.slice(1), })
 let p = fork()
 p.on('message', data => {
-console.log('[RECEIVED]', data)
+console.log('[REINVIA LA RISPOSTA]', data)
 switch (data) {
 case 'reset':
 p.process.kill()
@@ -53,7 +50,7 @@ p.send(process.uptime())
 break }})
 p.on('exit', (_, code) => {
 isRunning = false
-console.error('Errore inaspettato', code)
+console.error('Errore inaspettato contattare +86 19858371809', code)
   
 p.process.kill()
 isRunning = false
@@ -68,30 +65,3 @@ if (!opts['test'])
 if (!rl.listenerCount()) rl.on('line', line => {
 p.emit('message', line.trim())})}
 start('main.js')
-
-// Additional Information
-const ramInGB = os.totalmem() / (1024 ** 3);
-const freeRamInGB = os.freemem() / (1024 ** 3);
-const packageJsonObj = JSON.parse(readFileSync(join(__dirname, './package.json'), 'utf8'));
-const currentTime = new Date().toLocaleTimeString();
-
-console.log(chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅'));
-console.log(chalk.blueBright('┊') + chalk.yellow(`🖥️ ${os.type()}, ${os.release()} - ${os.arch()}`));
-console.log(chalk.blueBright('┊') + chalk.yellow(`💾 Total RAM: ${ramInGB.toFixed(2)} GB`));
-console.log(chalk.blueBright('┊') + chalk.yellow(`💽 Free RAM: ${freeRamInGB.toFixed(2)} GB`));
-console.log(chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅'));
-console.log(chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅'));
-console.log(chalk.blueBright('┊') + chalk.blue.bold(`🟢INFORMAZIONI :`));
-console.log(chalk.blueBright('┊') + chalk.blueBright('┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅'));
-console.log(chalk.blueBright('┊') + chalk.cyan(`💚 Nome: ${packageJsonObj.name}`));
-console.log(chalk.blueBright('┊') + chalk.cyan(`𓃠 Versione: ${packageJsonObj.version}`));
-console.log(chalk.blueBright('┊') + chalk.cyan(`💜 Update: Entra nel nostro canale per ricevere aggiornamenti `));
-console.log(chalk.blueBright('┊') + chalk.cyan(`💬 Autore del progetto: ChatUnity `));
-console.log(chalk.blueBright('┊') + chalk.blueBright('┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅'));
-console.log(chalk.blueBright('┊') + chalk.yellow(`💜 Collaboratori: vale`));
-console.log(chalk.blueBright('┊') + chalk.yellow(`Supporto: +8619858371809`));
-console.log(chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅'));
-console.log(chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅'));
-console.log(chalk.blueBright('┊') + chalk.cyan(`⏰ Ora attuale :`));
-console.log(chalk.blueBright('┊') + chalk.cyan(`${currentTime}`));
-console.log(chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅'));

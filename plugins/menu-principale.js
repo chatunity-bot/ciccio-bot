@@ -6,8 +6,6 @@ const handler = async (message, { conn, usedPrefix }) => {
 
     const menuText = generateMenuText(usedPrefix, botName, userCount);
     
-    const profilePictureUrl = await fetchProfilePictureUrl(conn, message.sender);
-
     const messageOptions = {
         contextInfo: {
             forwardingScore: 1,
@@ -23,7 +21,7 @@ const handler = async (message, { conn, usedPrefix }) => {
                 mediaType: 1,
                 renderLargerThumbnail: false,
                 previewType: 'thumbnail',
-                thumbnail: await fetchThumbnail(profilePictureUrl),
+                thumbnail: await fetchThumbnail('https://i.ibb.co/HpkzmrMZ/chatunity-jpg.jpg'),
                 
             }
         }
@@ -32,19 +30,11 @@ const handler = async (message, { conn, usedPrefix }) => {
     await conn.sendMessage(message.chat, { text: menuText, ...messageOptions }, { quoted: message });
 };
 
-async function fetchProfilePictureUrl(conn, sender) {
-    try {
-        return await conn.profilePictureUrl(sender);
-    } catch (error) {
-        return 'default-profile-picture-url'; // Fallback URL in case of error
-    }
-}
-
 async function fetchThumbnail(url) {
     try {
         const response = await fetch(url);
-        const buffer = await response.buffer();
-        return buffer;
+        const arrayBuffer = await response.arrayBuffer();
+        return new Uint8Array(arrayBuffer);
     } catch (error) {
         return 'default-thumbnail'; // Fallback thumbnail in case of error
     }

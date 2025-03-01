@@ -59,7 +59,7 @@ global.imagen4 = fs.readFileSync('./chatunity.png')
 //────────────────────────────
 
 // Sticker WM (Nome del pacchetto degli sticker)
-global.packname = '𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭'
+global.packname = '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭'
 global.author = '𝐌𝐝'
 
 //────────────────────────────

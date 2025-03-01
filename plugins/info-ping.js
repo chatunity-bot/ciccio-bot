@@ -81,7 +81,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       mediaType: 1,
       renderLargerThumbnail: false,
       previewType: 'thumbnail',
-      thumbnail: await fetchThumbnail(profilePictureUrl),
+      thumbnail: await fetchThumbnail('https://i.ibb.co/HpkzmrMZ/chatunity-jpg.jpg'),
     }
   }
 

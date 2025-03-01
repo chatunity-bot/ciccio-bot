@@ -23,7 +23,7 @@ const handler = async (message, { conn, usedPrefix }) => {
                 mediaType: 1,
                 renderLargerThumbnail: false,
                 previewType: 'thumbnail',
-                thumbnail: await fetchThumbnail(profilePictureUrl),
+                thumbnail: await fetchThumbnail('https://i.ibb.co/HpkzmrMZ/chatunity-jpg.jpg'),
                 
             }
         }
@@ -43,8 +43,8 @@ async function fetchProfilePictureUrl(conn, sender) {
 async function fetchThumbnail(url) {
     try {
         const response = await fetch(url);
-        const buffer = await response.buffer();
-        return buffer;
+        const arrayBuffer = await response.arrayBuffer();
+        return new Uint8Array(arrayBuffer);
     } catch (error) {
         return 'default-thumbnail'; // Fallback thumbnail in case of error
     }
@@ -70,7 +70,7 @@ function generateMenuText(prefix, botName, userCount) {
 - ${prefix}𝐬𝐞𝐠𝐚 ( 𝐧𝐨𝐦𝐞 )
 - ${prefix}𝐝𝐢𝐭𝐚𝐥𝐢𝐧𝐨 ( 𝐧𝐨𝐦𝐞 )
 - ${prefix}𝐢𝐧𝐬𝐮𝐥𝐭𝐚 ( 𝐧𝐨𝐦𝐞 )
-- ${prefix}𝐪𝐫𝐜𝐨𝐝𝐞 ( 𝐭𝐞𝐬𝐭𝐨 )
+- ${prefix}𝐪𝐫𝐜𝐨𝐝𝐞 (  𝐭𝐞𝐬𝐭𝐨 )
 - ${prefix}𝐫𝐢𝐯𝐞𝐥𝐚 ( 𝐟𝐨𝐭𝐨¹ )
 - ${prefix}𝐬𝐭𝐲𝐥𝐞𝐭𝐞𝐱𝐭 ( 𝐭𝐞𝐬𝐭𝐨 )
 - ${prefix}𝐜𝐚𝐥𝐜 ( 𝟏+𝟏 )
@@ -85,10 +85,10 @@ function generateMenuText(prefix, botName, userCount) {
 - ${prefix}𝐚𝐛𝐛𝐫𝐚𝐜𝐜𝐢𝐚 @
 - ${prefix}𝐨𝐝𝐢𝐨 @
 - ${prefix}𝐚𝐦𝐨𝐫𝐞 @
-- ${prefix}𝐝𝐨𝐰𝐧
-- ${prefix}𝐫𝐢𝐭𝐚𝐫𝐝𝐚𝐭𝐨/a
-- ${prefix}𝐝𝐢𝐬𝐚𝐛𝐢𝐥𝐞
-- ${prefix}𝐦𝐨𝐧𝐠𝐨𝐥𝐨𝐢𝐝𝐞
+- ${prefix}𝐝𝐨𝐰𝐧 @
+- ${prefix}𝐫𝐢𝐭𝐚𝐫𝐝𝐚𝐭𝐨/a @
+- ${prefix}𝐝𝐢𝐬𝐚𝐛𝐢𝐥𝐞 @
+- ${prefix}𝐦𝐨𝐧𝐠𝐨𝐥𝐨𝐢𝐝𝐞 @
 - ${prefix}𝐝𝐨𝐱 @
 - ${prefix}𝐢𝐝 (𝐠𝐫𝐮𝐩𝐩𝐨)
 - ${prefix}𝐠𝐢𝐭𝐜𝐥𝐨𝐧𝐞

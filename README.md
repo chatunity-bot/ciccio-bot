@@ -5,7 +5,7 @@
  <a href="https://github.com/chatunity-bot/followers"><img title="𝐅𝐨𝐥𝐥𝐨𝐰𝐞𝐫𝐬" src="https://img.shields.io/github/followers/chatunity-bot?color=red&style=flat-square"></a> 
  <a href="https://github.com/chatunity-bot/chatunity-bot/stargazers/"><img ><img src="https://komarev.com/ghpvc/?username=chatunity-bot&color=blue&style=flat-square&label=Profile+Visual" /> 
  <a href="https://github.com/chatunity-bot/chatunity-bot/watchers"><img ></a>
-<img src="https://i.ibb.co/HpkzmrMZ/chatunity-jpg.jpg" alt="ChatUNity-bot" style="width: 100%; height: auto; max- width: 400px;">
+<img src="https://i.ibb.co/HpkzmrMZ/chatunity-jpg.jpg" alt="ChatUnity-bot" style="width: 100%; height: auto; max- width: 400px;">
 “© ChatUNity-bot. Tutti i diritti riservati. Consulta la licenza per i dettagli.”
  <p align="center"> 
 

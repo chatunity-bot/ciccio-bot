@@ -6,7 +6,7 @@ let handler = async (m, { conn, text, participants, isOwner, isAdmin }) => {
   let quoted = m.quoted ? m.quoted : m
   let mime = (quoted.msg || quoted).mimetype || ''
   let isMedia = /image|video|sticker|audio/.test(mime)
-  let nomeDelBot = global.db.data.nomedelbot || `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲`
+  let nomeDelBot = global.db.data.nomedelbot || `ciccio`
   
   // Create invisible tag using zero-width joiner
   let more = String.fromCharCode(8206)
@@ -19,7 +19,7 @@ let handler = async (m, { conn, text, participants, isOwner, isAdmin }) => {
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363259442839354@newsletter',
+        newsletterJid: '120363370504341415@newsletter',
         serverMessageId: '',
         newsletterName: `${nomeDelBot}`
       }

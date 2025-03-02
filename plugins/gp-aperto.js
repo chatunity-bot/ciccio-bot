@@ -1,6 +1,6 @@
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     // Get bot name from database or use default
-    let nomeDelBot = global.db.data.nomedelbot || `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲`
+    let nomeDelBot = global.db.data.nomedelbot || `ciccio`
   
     let setting = {
       '': 'not_announcement'
@@ -17,7 +17,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
         forwardingScore: 99,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363259442839354@newsletter',
+          newsletterJid: '120363370504341415@newsletter',
           serverMessageId: '',
           newsletterName: `${nomeDelBot}`
         }

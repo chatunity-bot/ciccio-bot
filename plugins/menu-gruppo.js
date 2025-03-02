@@ -13,7 +13,7 @@ const handler = async (message, { conn, usedPrefix }) => {
             forwardingScore: 1,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363259442839354@newsletter',
+                newsletterJid: '120363370504341415@newsletter',
                 serverMessageId: '',
                 newsletterName: `${botName}`
             },
@@ -23,7 +23,7 @@ const handler = async (message, { conn, usedPrefix }) => {
                 mediaType: 1,
                 renderLargerThumbnail: false,
                 previewType: 'thumbnail',
-                thumbnail: await fetchThumbnail('https://i.ibb.co/HpkzmrMZ/chatunity-jpg.jpg'),
+                thumbnail: await fetchThumbnail('https://i.ibb.co/3VvDkns/cicciobot.jpg'),
                 
             }
         }

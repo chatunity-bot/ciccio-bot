@@ -1,5 +1,5 @@
 let handler = async (m, { conn, args, groupMetadata }) => {
-        let nomeDelBot = global.db.data.nomedelbot || `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲`
+        let nomeDelBot = global.db.data.nomedelbot || `ciccio`
         let who
         if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false
         else who = m.chat
@@ -17,7 +17,7 @@ let handler = async (m, { conn, args, groupMetadata }) => {
               forwardingScore: 999,
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363259442839354@newsletter',
+                newsletterJid: '120363370504341415@newsletter',
                 serverMessageId: '',
                 newsletterName: `${nomeDelBot}`
               }

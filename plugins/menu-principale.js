@@ -11,7 +11,7 @@ const handler = async (message, { conn, usedPrefix }) => {
             forwardingScore: 1,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363259442839354@newsletter',
+                newsletterJid: '120363370504341415@newsletter',
                 serverMessageId: '',
                 newsletterName: `${botName}`
             },
@@ -21,7 +21,7 @@ const handler = async (message, { conn, usedPrefix }) => {
                 mediaType: 1,
                 renderLargerThumbnail: false,
                 previewType: 'thumbnail',
-                thumbnail: await fetchThumbnail('https://i.ibb.co/HpkzmrMZ/chatunity-jpg.jpg'),
+                thumbnail: await fetchThumbnail('https://i.ibb.co/3VvDkns/cicciobot.jpg'),
                 
             }
         }
@@ -49,7 +49,7 @@ export default handler;
 function generateMenuText(prefix, botName, userCount) {
     return `
     『💬』 ══ •⊰✰⊱• ══ 『💬』
-          𝐔𝐬𝐚 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭
+          𝐔𝐬𝐚 ciccio-𝐁𝐨𝐭
         
 ⚙  ${prefix}𝐅𝐮𝐧𝐳𝐢𝐨𝐧𝐢
 📥  ${prefix}𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐚
@@ -63,7 +63,7 @@ function generateMenuText(prefix, botName, userCount) {
     『💬』 ══ •⊰✰⊱• ══ 『💬』
 
 𝐔𝐭𝐞𝐧𝐭𝐢: ${userCount}
-𝐀𝐮𝐭𝐨𝐫𝐞: 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲
+𝐀𝐮𝐭𝐨𝐫𝐞: ciccio
 𝐕𝐞𝐫𝐬𝐢𝐨𝐧𝐞: 1.0
 𝐃𝐚𝐭𝐚: ${new Date().toLocaleDateString()}
 

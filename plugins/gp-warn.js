@@ -8,7 +8,7 @@ let handler = async (m, { conn, text, args, groupMetadata, usedPrefix, command }
   
   let warn = global.db.data.users[who].warn
   let user = global.db.data.users[who]
-  let nomeDelBot = global.db.data.nomedelbot || `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲`
+  let nomeDelBot = global.db.data.nomedelbot || `ciccio`
 
   const messageOptions = {
     contextInfo: {
@@ -16,7 +16,7 @@ let handler = async (m, { conn, text, args, groupMetadata, usedPrefix, command }
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363259442839354@newsletter',
+        newsletterJid: '120363370504341415@newsletter',
         serverMessageId: '',
         newsletterName: `${nomeDelBot}`
       }

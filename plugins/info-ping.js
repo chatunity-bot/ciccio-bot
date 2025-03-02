@@ -10,7 +10,7 @@ let format = sizeFormatter({
 })
 
 let handler = async (m, { conn, usedPrefix, command }) => {
-  let nomeDelBot = global.db.data.nomedelbot || `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲`
+  let nomeDelBot = global.db.data.nomedelbot || `ciccio`
   let versioneBot = '1.0' // Specifica la versione del bot
   let old = performance.now()
   let neww = performance.now()
@@ -67,7 +67,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363259442839354@newsletter',
+        newsletterJid: '120363370504341415@newsletter',
         serverMessageId: '',
         newsletterName: `${nomeDelBot}`
       }
@@ -81,7 +81,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       mediaType: 1,
       renderLargerThumbnail: false,
       previewType: 'thumbnail',
-      thumbnail: await fetchThumbnail('https://i.ibb.co/HpkzmrMZ/chatunity-jpg.jpg'),
+      thumbnail: await fetchThumbnail('https://i.ibb.co/3VvDkns/cicciobot.jpg'),
     }
   }
 

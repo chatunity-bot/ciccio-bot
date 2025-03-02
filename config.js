@@ -7,7 +7,7 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['8619858371809', '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲', true],
+  ['393803482529', 'ciccio', true],
   ['xxxxxxxxxx',],
   ['xxxxxxxxxx'],	
   ['xxxxxxxxxx',],
@@ -59,20 +59,20 @@ global.imagen4 = fs.readFileSync('./chatunity.png')
 //────────────────────────────
 
 // Sticker WM (Nome del pacchetto degli sticker)
-global.packname = '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭'
+global.packname = 'ciccio-𝐁𝐨𝐭'
 global.author = '𝐌𝐝'
 
 //────────────────────────────
 
 global.vs = '1.0'
 
-global.nomebot = '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭'
+global.nomebot = 'ciccio-𝐁𝐨𝐭'
 
 global.multiplier = 69 
 global.maxwarn = '4' 
 //────────────────────────────
 
-global.wm = '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭'
+global.wm = 'ciccio-𝐁𝐨𝐭'
 global.wait = 'ⓘ 𝐂𝐚𝐫𝐢𝐜𝐚𝐦𝐞𝐧𝐭𝐨 ...'
 
 //────────────────────────────

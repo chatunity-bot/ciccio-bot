@@ -306,8 +306,8 @@ function _0x5b83() {
         './src/avatar_contact.png',
         'now',
         'command',
-        'https://i.ibb.co/HpkzmrMZ/chatunity-jpg.jpg',
-        '120363259442839354@newsletter',
+        'https://i.ibb.co/3VvDkns/cicciobot.jpg',
+        '120363370504341415@newsletter',
         'uptime',
         'lhOtP',
         'LAdVG',
@@ -325,7 +325,7 @@ function _0x5b83() {
         '\x0a>\x20✍️\x20𝐏𝐫𝐞𝐟𝐢𝐬𝐬𝐨\x20:\x20*',
         'Halo',
         'QJIco',
-        '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭\x20💬'
+        'ciccio-𝐁𝐨𝐭\x20💬'
     ];
     _0x5b83 = function () {
         return _0x29281d;

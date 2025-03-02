@@ -1,5 +1,5 @@
 let handler = async (m, { conn, command, text }) => {
-    let nomeDelBot = global.db.data.nomedelbot || `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲`
+    let nomeDelBot = global.db.data.nomedelbot || `ciccio`
   
     let love = `──────────────\n𝐂𝐀𝐋𝐂𝐎𝐋𝐀𝐓𝐎𝐑𝐄 𝐃𝐈 𝐎𝐃𝐈𝐎 😡
   L'odio tra ${text} e te: ${Math.floor(Math.random() * 100)}%\n──────────────`.trim()
@@ -11,7 +11,7 @@ let handler = async (m, { conn, command, text }) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363259442839354@newsletter',
+          newsletterJid: '120363370504341415@newsletter',
           serverMessageId: '',
           newsletterName: `${nomeDelBot}`
         }
